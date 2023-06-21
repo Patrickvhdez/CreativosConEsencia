@@ -86,7 +86,7 @@ h6 {
   height: 100px;
   z-index: 997;
   transition: all 0.5s;
-  background: #f7f7f4;
+  background: #ffff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -149,7 +149,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   color: #004289;
   font-weight: 500;
   white-space: nowrap;
