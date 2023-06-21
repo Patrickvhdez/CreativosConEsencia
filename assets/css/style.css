@@ -83,10 +83,10 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 100px;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background: #f7f7f4;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -103,7 +103,7 @@ h6 {
   text-transform: uppercase;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 998px) {
   #header .logo h1 {
     font-size: 28px;
   }
@@ -117,7 +117,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  max-height: 26px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -344,7 +344,7 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: url("../img/hero-bg.png") center bottom no-repeat;
+  background: url("../img/imagen-azul-degrado.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -416,7 +416,7 @@ h6 {
 #hero .hero-info .btn-get-started,
 #hero .hero-info .btn-services {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
   display: inline-block;
