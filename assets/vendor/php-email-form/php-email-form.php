@@ -3,7 +3,6 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$human = intval($_POST['human']);
 		$from = $email; 
 		
 		// WARNING: Be sure to change this. This is the address that the email will be sent to
