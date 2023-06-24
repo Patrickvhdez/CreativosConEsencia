@@ -3,6 +3,7 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
+        $subject = $_POST['subject'];
 		$from = $email; 
 		
 		// WARNING: Be sure to change this. This is the address that the email will be sent to
@@ -27,7 +28,10 @@
 			$errMessage = 'Please enter your message';
 		}
 		
- 
+        //Check if subject has been entered
+        if (!$_POST['subject']) {
+            $errMessage = 'Please enter your subject';
+        }
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage) {
 	if (mail ($to, $subject, $body, $from)) {
