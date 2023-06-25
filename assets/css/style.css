@@ -1176,8 +1176,7 @@ section {
 --------------------------------*/
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 60px 250px;
-  margin: auto;
+  padding: 60px 0;
   overflow: hidden;
 }
 
