@@ -4,7 +4,7 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
         $subject = $_POST['subject'];
-		$from = $email; 
+		
 		
 		// WARNING: Be sure to change this. This is the address that the email will be sent to
 		$to = 'patvhdez@gmail.com'; 
