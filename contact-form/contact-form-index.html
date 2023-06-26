@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <span class="big-circle"></span>
-      <img src="img/shape.png" class="square" alt="" />
+      <img src="../assets/img/shape.png" class="square" alt="" />
       <div class="form">
         <div class="contact-info">
           <h3 class="title">Envíanos un mensaje!</h3>
@@ -73,6 +73,11 @@
               <span>Email</span>
             </div>
             <div class="input-container">
+              <input type="subject" name="subject" class="input" />
+              <label for="">Asunto</label>
+              <span>Asunto</span>
+            </div>
+            <div class="input-container">
               <input type="tel" name="phone" class="input" />
               <label for="">Telefono</label>
               <span>Phone</span>
@@ -94,5 +99,31 @@
     </div>
 
     <script src="../contact-form/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+       var btn = document.getElementById('btn');
+       btn.addEventListener('click', function(e){
+        e.preventDefault()
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var subject = document.getElementById('subject').value;
+        var phone = document.getElementById('phone').value;
+        var message = document.getElementById('message').value; 
+        var body = 'name: ' + name + '<br/> email: ' + email + 
+        '<br/>subject: ' + subject + '<br/>Message: ' + message;
+
+       })
+
+
+                  Email.send({
+                SecureToken : "ce51220e-cfd8-4b05-8bc7-155ebf1268f3",
+                To : 'patvhdez@gmail.com',
+                From : "patrickesteban.valenzuelahernan@gmail.com",
+                Subject : "contact message",
+                Body : body
+            }).then(
+              message => alert(message)
+            );
+    </script>
   </body>
 </html>
