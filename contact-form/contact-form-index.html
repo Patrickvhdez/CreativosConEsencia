@@ -63,32 +63,32 @@
           <form action="../contact-form/contact-form-index.html" autocomplete="off">
             <h3 class="title"></h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" name="name" id="name" class="input" />
               <label for="">Nombre</label>
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="email" name="email" id="email" class="input" />
               <label for="">Email</label>
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="subject" name="subject" class="input" />
+              <input type="subject" name="subject" id="subject" class="input" />
               <label for="">Asunto</label>
               <span>Asunto</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input" />
+              <input type="tel" name="phone" id="phone" class="input" />
               <label for="">Telefono</label>
               <span>Phone</span>
             </div>
             <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
+              <textarea name="message"  id="message" class="input"></textarea>
               <label for="">Mensaje</label>
               <span>Message</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
-            <a href="../index.html" class="btn">Atras</a>
+            <button type="submit" id="btn" class="btn">Enviar</button>  
+            <a href="../index.html" class="btn">Volver</a>
           </form>
         </div>
       </div>
@@ -97,24 +97,25 @@
     <script src="../contact-form/app.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
-       var btn = document.getElementById('btn');
-       btn.addEventListener('click', function(e){
+       var btn = document.getElementById("btn");
+       btn.addEventListener('click' ,function(e){
         e.preventDefault()
+       
         var name = document.getElementById('name').value;
         var email = document.getElementById('email').value;
         var subject = document.getElementById('subject').value;
         var phone = document.getElementById('phone').value;
         var message = document.getElementById('message').value; 
-        var body = 'name: ' + name + '<br/> email: ' + email + 
-        '<br/>subject: ' + subject + '<br/>Message: ' + message;
+        var body = 'name: '+name + '<br/> email: ' + email + 
+        '<br/> subject: ' +subject + '<br/> message: ';
 
        })
 
 
                   Email.send({
                 SecureToken : "ce51220e-cfd8-4b05-8bc7-155ebf1268f3",
-                To : 'patvhdez@gmail.com',
-                From : "patrickesteban.valenzuelahernan@gmail.com",
+                To : 'patrickesteban.valenzuelahernan@gmail.com',
+                From : 'patvhdez@gmail.com',
                 Subject : "contact message",
                 Body : body
             }).then(
