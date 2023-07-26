@@ -1355,7 +1355,7 @@ section {
   border-radius: 4px 4px 0px 0px;
 }
 .pricing-plan .pricing-header .pricing-title {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: #ffffff;
   padding: 1rem 0;
   text-transform: uppercase;
@@ -1387,6 +1387,7 @@ section {
   padding: 0;
   margin: 20px 0;
   text-align: left;
+  
 }
 .pricing-plan .pricing-features li {
   padding: 15px 15px 15px 40px;
@@ -1394,7 +1395,7 @@ section {
   white-space: nowrap;
   text-overflow: ellipsis;
   position: relative;
-  line-height: 100%;
+  line-height: 150%;
 }
 
 .pricing-plan .pricing-footer {
