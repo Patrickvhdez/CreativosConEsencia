@@ -25,7 +25,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- =======================================================
   * Template Name: NewBiz
   * Updated: May 30 2023 with Bootstrap v5.3.0
@@ -33,6 +33,93 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style type="text/css">
+    body{margin-top:20px;
+  color: #bcd0f7;
+  background: #1A233A;
+  position: relative;
+  height: 100%;
+}
+.pricing-plan {
+  margin: 0 0 1rem 0;
+  width: 100%;
+  position: relative;
+  background: #272e48;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.pricing-plan .pricing-header {
+  padding: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);
+  -webkit-border-radius: 4px 4px 0px 0px;
+  -moz-border-radius: 4px 4px 0px 0px;
+  border-radius: 4px 4px 0px 0px;
+}
+.pricing-plan .pricing-header .pricing-title {
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .pricing-cost {
+  color: #ffffff;
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .pricing-save {
+  color: #ffffff;
+  padding: 0.8rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.pricing-plan .pricing-header.secondary {
+  background-image: linear-gradient(120deg, #c0d64a 0%, #35690f 100%);
+}
+.pricing-plan .pricing-header.red {
+  background-image: linear-gradient(120deg, #ff3434 0%, #a50000 100%);
+}
+.pricing-plan .pricing-features {
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+.pricing-plan .pricing-features li {
+  padding: 15px 15px 15px 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  line-height: 100%;
+}
+
+.pricing-plan .pricing-footer {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+
+@media (max-width: 767px) {
+  .pricing-plan .pricing-header {
+      text-align: center;
+  }
+  .pricing-plan .pricing-header i {
+      display: block;
+      float: none;
+      margin-bottom: 1.5rem;
+  }
+}
+
+  </style>
 </head>
 
 <body>
@@ -107,31 +194,32 @@
 
         <header class="section-header">
           <h3>Conócenos</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Creativos con esencia es un equipo de profesionales del marketing 360, curiosos, creativos y apasionados
+             de las redes sociales, que disfrutan lo que mejor saben hacer: planificar, crear, y comunicar mediante estos nuevos canales</p>
         </header>
 
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Nuestros principales compromisos son la innovación, la dedicación, el trabajo en equipo, la responsabilidad, el día a día y la pasión que le dedicamos a los proyectos de nuestros clientes.
             </p>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <div class="icon"><i class="bi bi-chat-text-fill"></i></div>
+              <h4 class="title"><a href="">Comunicar</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-brightness-high"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <div class="icon"><i class="bi bi-magic"></i></div>
+              <h4 class="title"><a href="">Crear</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="">Planificar</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
 
@@ -186,7 +274,7 @@
 
         <header class="section-header">
           <h3>Nuestros Servicios</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <p>Ofrecemos un abanico de opciones para hacer crecer tu marca, destacando las siguientes:</p>
         </header>
 
         <div class="row justify-content-center">
@@ -194,14 +282,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <h4 class="title"><a href="">Gestion de Marcas (Community Management)</a></h4>
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-card-checklist" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="">Diseño creativo</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
           </div>
@@ -209,14 +297,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="">Estrategias de Contenido</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title"><a href="">Publicidad Online</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
           </div>
@@ -224,14 +312,14 @@
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <div class="icon"><i class="bi bi-brightness-high" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <h4 class="title"><a href="">Creacion y  Gestion de paginas Web y Blogs</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="icon"><i class="bi bi-calendar4-week" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <h4 class="title"><a href="">Campañas de PR con bloggers y prescriptores</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>
@@ -246,7 +334,8 @@
       <div class="container" data-aos="fade-up">
         <header class="section-header">
           <h3>Por qué elegirnos?</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <p>Nos comprometemos al 100% con tus necesidades y nos adaptamos facilmente al estilo de marca de nuestros clientes, aportando soluciones innovadoras personalizadas.
+          </p>
         </header>
 
         <div class="row row-eq-height justify-content-center">
@@ -312,6 +401,95 @@
 
       </div>
     </section><!-- End Why Us Section -->
+
+    <!--Nuestros planes-->
+    
+    
+    <section id="why-us">
+      
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Nuestros planes</h3>
+          <p>Entendemos la necesidad de tener presencia en redes sociales, así como también la situación actual, y es por eso que nuestros paquetes incluyen
+             soluciones de marketing online a un precio muy competitivo.
+          </p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="container">
+            <div class="row gutters">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="pricing-plan">
+            <div class="pricing-header">
+            <h4 class="pricing-title">Plan Básico</h4>
+            <div class="pricing-cost">5,000 RD$</div>
+            <div class="pricing-save"></div>
+            </div>
+            <ul class="pricing-features">
+            <li>5GB Linux Web Space</li>
+            <li>5 MySQL Databases</li>
+            <li>500 Emails</li>
+            <li>250Gb mothly Transfer</li>
+            <li class="text-muted"><del>24/7 Tech Support</del></li>
+            <li class="text-muted"><del>Daily Backups</del></li>
+            </ul>
+            <div class="pricing-footer">
+            <a href="#" class="btn btn-primary btn-lg">Elegir</a>
+            </div>
+            </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <div class="pricing-plan">
+            <div class="pricing-header red">
+            <h4 class="pricing-title">Plan Premium</h4>
+            <div class="pricing-cost">15,000 RD$</div>
+            <div class="pricing-save"></div>
+            </div>
+            <ul class="pricing-features">
+            <li>10GB Linux Web Space</li>
+            <li>10 MySQL Databases</li>
+            <li>1000 Emails</li>
+            <li>750Gb mothly Transfer</li>
+            <li>24/7 Tech Support</li>
+            <li class="text-muted"><del>Daily Backups</del></li>
+            </ul>
+            <div class="pricing-footer">
+            <a href="#" class="btn btn-danger btn-lg">Elegir</a>
+            </div>
+            </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="pricing-plan">
+            <div class="pricing-header secondary">
+            <h4 class="pricing-title">Plan Plus</h4>
+            <div class="pricing-cost">25,000 RD$</div>
+            <div class="pricing-save"></div>
+            </div>
+            <ul class="pricing-features">
+            <li>50GB Linux Web Space</li>
+            <li>100 MySQL Databases</li>
+            <li>Unlimited Emails</li>
+            <li>1000Gb mothly Transfer</li>
+            <li>24/7 Tech Support</li>
+            <li>Daily Backups</li>
+            </ul>
+            <div class="pricing-footer">
+            <a href="#" class="btn btn-success btn-lg">Elegir</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script type="text/javascript">
+              
+            </script>
+
+      </div>
+    </section><!--Fin de Nuestros Planes-->
+  
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="clearfix">
