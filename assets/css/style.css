@@ -396,7 +396,7 @@ h6 {
 }
 
 #hero .hero-info h2 {
-  color: #fff;
+  color: #f048dc;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -429,8 +429,8 @@ h6 {
 }
 
 #hero .hero-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #f048dc;
+  border: 2px solid #f048dc;
   color: #fff;
 }
 
