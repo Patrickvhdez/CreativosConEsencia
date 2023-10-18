@@ -461,7 +461,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #293fae;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -702,6 +702,7 @@ section {
 #why-us .section-header h3,
 #why-us .section-header h2 {
   color: #064d84;
+  text-align: center;
 }
 
 #why-us .card {
