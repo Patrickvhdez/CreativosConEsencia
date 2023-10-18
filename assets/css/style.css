@@ -168,7 +168,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #007bff;
+  color: #f048dc;
 }
 
 .navbar .dropdown ul {
@@ -739,7 +739,7 @@ section {
 }
 
 #why-us .card p {
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
 }
 
