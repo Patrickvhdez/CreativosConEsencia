@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #ffffff;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -470,7 +470,7 @@ section {
 .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 22px;
   padding-bottom: 60px;
   color: #556877;
   width: 50%;
@@ -485,7 +485,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #ecf5ff;
+  background: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -642,7 +642,7 @@ section {
 --------------------------------*/
 #services {
   padding: 60px 0 40px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 12px 0px rgba(247, 244, 244, 0.1);
 }
 
 #services .box {
@@ -688,25 +688,25 @@ section {
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 20px;
   margin-left: 40px;
-  line-height: 24px;
+  line-height: 28px;
   margin-bottom: 0;
 }
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #abf5f7;
 }
 
 #why-us .section-header h3,
-#why-us .section-header p {
-  color: #fff;
+#why-us .section-header h2 {
+  color: #064d84;
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #229cfa;
+  border-color: #229cfa;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -730,7 +730,7 @@ section {
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #fff;
 }
 
 #why-us .card h5 {
@@ -740,7 +740,7 @@ section {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
+  color: #fff;
 }
 
 #why-us .card .readmore {
@@ -764,15 +764,15 @@ section {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #229cfa;
 }
 
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #cce5ff;
+  font-size: 20px;
+  color: #064d84;
 }
 
 /* Portfolio Section
@@ -1063,6 +1063,10 @@ section {
   background-color: #007bff;
 }
 
+#testimonials {
+  background: #fae0f1;
+}
+
 /* Team Section
 --------------------------------*/
 #team {
@@ -1172,6 +1176,11 @@ section {
 #clients img {
   transition: all 0.4s ease-in-out;
 }
+
+#clients{
+  background: #fae0f1;
+}
+
 
 /* Contact Section
 --------------------------------*/
