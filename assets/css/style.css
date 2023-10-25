@@ -395,7 +395,7 @@ h6 {
   }
 }
 
-#hero .hero-info h2 {
+#hero .hero-info h1 {
   color: #f048dc;
   margin-bottom: 40px;
   font-size: 48px;
@@ -460,20 +460,20 @@ section {
 /* Sections Header
 --------------------------------*/
 .section-header h3 {
-  font-size: 36px;
+  font-size: 40px;
   color: #293fae;
   text-align: center;
   font-weight: 500;
   position: relative;
 }
 
-.section-header p {
+.section-header h2 {
   text-align: center;
   margin: auto;
-  font-size: 25px;
+  font-size: 30px;
   padding-bottom: 60px;
-  color: #010b13;
-  width: 50%;
+  color: #064d84;
+  width: 80%;
 }
 
 @media (max-width: 767px) {
