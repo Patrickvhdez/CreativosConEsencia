@@ -474,7 +474,7 @@ section {
   font-size: 30px;
   padding-bottom: 60px;
   color: #064d84;
-  width: 80%;
+  width: 70%;
 }
 
 @media (max-width: 767px) {
@@ -1556,7 +1556,7 @@ section.dark p {
 /*--------------------------------------------------------------
 # Pricing CSS
 --------------------------------------------------------------*/
-.pricing-plan {
+/*.pricing-plan {
   margin: 0 0 1rem 0;
   width: 100%;
   position: relative;
@@ -1635,7 +1635,7 @@ section.dark p {
       float: none;
       margin-bottom: 1.5rem;
   }
-}
+}*/
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
